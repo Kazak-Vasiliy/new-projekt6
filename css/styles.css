@@ -682,7 +682,6 @@ transition: transform 250ms var(--cubiq);
 }
 .form-wrap{
     display: block;
-    
    
 }
 .label-form{
@@ -691,6 +690,11 @@ letter-spacing: 0.01em;
 line-height: 1.16;
 color: var(--secod-color);
 }
+.wrapper-input{
+margin-bottom: 10px;
+    margin-top: 4px;
+    position: relative;
+}
 .input-modal {
     width: 100%;
     height: 40px;
@@ -698,8 +702,16 @@ color: var(--secod-color);
     outline: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
     padding: 11px 12px;
-    margin-bottom: 10px;
-    margin-top: 4px;
+    padding-left: 42px;
+    /* margin-bottom: 10px; */
+    /* margin-top: 4px; */
+}
+.icon-form{
+    position: absolute;
+    top: 50%;
+    left: 12px;
+    transform: translateY(-50%);
+
 }
 .comment{
     width: 100%;
