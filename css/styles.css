@@ -680,10 +680,6 @@ transition: transform 250ms var(--cubiq);
 
   
 }
-.form-wrap{
-    display: block;
-   
-}
 .label-form{
 font-size: 12px;
 letter-spacing: 0.01em;
@@ -698,13 +694,9 @@ margin-bottom: 10px;
 .input-modal {
     width: 100%;
     height: 40px;
-    border: none;
-    outline: 1px solid rgba(33, 33, 33, 0.2);
+    border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
-    padding: 11px 12px;
     padding-left: 42px;
-    /* margin-bottom: 10px; */
-    /* margin-top: 4px; */
 }
 .icon-form{
     position: absolute;
@@ -716,11 +708,11 @@ margin-bottom: 10px;
 .comment{
     width: 100%;
     height: 120px;
-    border: none;
-    outline: 1px solid rgba(33, 33, 33, 0.2);
+    border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
     padding: 12px 16px;
     margin-top: 4px;
+    margin-bottom: 20px;
     letter-spacing: 0.01em;
     font-size: 12px;
     resize: none;
@@ -749,8 +741,6 @@ margin-bottom: 10px;
     line-height: 1.71;
     display: flex;
     justify-content: center;
-    margin-top: 20px;
-
 }
 .btn-form{
     display: flex;
@@ -759,7 +749,7 @@ margin-bottom: 10px;
     line-height: 1.87;
     letter-spacing: 0.06em;
     padding: 10px 52px;
-    margin: 30px auto 40px;
+    margin: 30px auto 0px;
     color: var(--white-color);
     background-color: var(--akcent-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
