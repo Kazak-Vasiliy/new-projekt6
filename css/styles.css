@@ -642,6 +642,7 @@ transition: transform 250ms var(--cubiq);
     background-color: var(--white-color);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
+    padding: 40px;
 }
 .modal-close{
     transition: background-color 250ms var(--cubiq),fill 250ms var(--cubiq);
@@ -665,9 +666,6 @@ transition: transform 250ms var(--cubiq);
     background-color: var(--akcent-color);
     fill:var(--white-color);
 }
-.form-modal{
-    padding: 40px;
-}
 .form-title{
     display: flex;
     justify-content: center;
@@ -685,6 +683,7 @@ font-size: 12px;
 letter-spacing: 0.01em;
 line-height: 1.16;
 color: var(--secod-color);
+display: block;
 }
 .wrapper-input{
 margin-bottom: 10px;
