@@ -697,13 +697,21 @@ margin-bottom: 10px;
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
     padding-left: 42px;
+    
+}
+.comment:focus,
+.input-modal:focus{
+    border: none;
+    outline:1px solid var(--akcent-color);
+}
+.input-modal:focus + .icon-form{
+    fill: var(--akcent-color);
 }
 .icon-form{
     position: absolute;
     top: 50%;
     left: 12px;
     transform: translateY(-50%);
-
 }
 .comment{
     width: 100%;
@@ -717,15 +725,46 @@ margin-bottom: 10px;
     font-size: 12px;
     resize: none;
 }
+.label-polisy {
+    color: var(--secod-color);
+    letter-spacing: 0.03em;
+    font-size: 14px;
+    line-height: 1.71;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    align-items: center;
+}
 .polisy-check{
-    position: absolute;
+    /* position: absolute;
         width: 1px;
         height: 1px;
         margin: -1px;
         border: 0;
         padding: 0;
         clip: rect(0 0 0 0);
-        overflow: hidden;
+        overflow: hidden; */
+
+    -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        position: absolute;
+}
+.icon-check{
+    width:16px ;
+    height:15px ;
+    border: 2px solid black;
+    border-radius: 4px;
+    display: inline-block;
+    margin-right: 7px;   
+}
+.polisy-check:checked + .icon-check{
+    background-color: var(--akcent-color);
+    background-image: url('../svg/icon-check.svg');
+    background-size: contain;
+    background-origin: border-box;
+    border-color: var(--akcent-color);
+    
 }
 .check-color{
     display: block;
@@ -733,14 +772,6 @@ margin-bottom: 10px;
     letter-spacing: 0.03em;
         font-size: 14px;
         line-height: 1.71;
-}
-.label-polisy{
-    color: var(--secod-color);
-    letter-spacing: 0.03em;
-    font-size: 14px;
-    line-height: 1.71;
-    display: flex;
-    justify-content: center;
 }
 .btn-form{
     display: flex;
